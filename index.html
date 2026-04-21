@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="home">
         <h1>Curiosidades de Tecnologia</h1>
-        <h2>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</h2>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</p>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Notícias</a></li>
-                <li><a href="#">Curiosidades</a></li>
-                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#fale-comigo">Fale Comigo</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <article>
             <!-- história do android -->
-            <section class="parte-branca">
+            <section class="parte-branca" id="noticias">
                 <h1>História do Mascote do Android</h1>
                 <p>
                     Provavelmente você sabe que o sistema operacional <strong>Android</strong>, 
@@ -83,14 +83,14 @@
                 </div>
             </section>
             <!-- bloco - quer aprender mais? -->
-            <section class="ultimo-bloco">
-                <h3>Quer aprender mais?</h3>
+            <section class="ultimo-bloco" id="curiosidades">
+                <h3 class="aprender-mais">Quer aprender mais?</h3>
                 <p>
                     Outro assunto curioso em relação ao Android é que cada versão 
                     sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir 
                     da versão 1.5 até a 9.0.
                 </p>
-                <ul>
+                <ul class="li1">
                     <li>1.5 - <abbr title="Bolo de Copo">Cupcake</abbr></li>
                     <li>1.6 - <abbr title="Rosquinha">Donut</abbr></li>
                     <li>3.0 - <abbr title="Bomba">Eclair</abbr></li>
@@ -99,7 +99,7 @@
                     <li>3.0 - <abbr title="Favo de Mel">Honeycomb</abbr></li>
                     <li>4.0 - <abbr title="Sanduiche de Sorvete">Ice Cream Sandwich</abbr></li>
                 </ul>
-                <ul>
+                <ul class="li2">
                     <li>4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
                     <li>4.4 - <abbr title="KitKat">KitKat</abbr></li>
                     <li>5.0 - <abbr title="Pirulito">Lolipop</abbr></li>
@@ -111,7 +111,7 @@
                 <p>
                     Infelizmente, o <strong>Android Q</strong> não existiu, pois o Google 
                     resolveu pôr fim a essa divertida prática e começou a usar numerações, 
-                    o que deu origem ao <span>Android 10</span>.
+                    o que deu origem ao <strong>Android 10</strong>.
                 </p>
                 <p>
                     Acesse aqui o site <a href="https://developer.android.com/about/versions?hl=pt-br" 
@@ -128,9 +128,9 @@
             </section>
         </article>
     </main>
-    <footer>
+    <footer id="fale-comigo">
         <p>
-            Site criado por Vitória de Morais para o Desafio 10 do Curso em Vídeo: 
+            Site criado por <span>Vitória de Morais</span> para o <span>Desafio 10</span> do <span>Curso em Vídeo</span>: 
             tentar recriar um site do zero. <br>
             Entre em contato: 
             <a href="https://github.com/vickmoraisdev" target="_blank">GitHub</a>

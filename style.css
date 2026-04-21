@@ -36,18 +36,47 @@ body{
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     color: white;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 header h1{
     font-family: var(--fonte-destaque);
     color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.186);
 }
 
 header p{
     color: white;
+    font-family: var(--fonte-padrao);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.186);
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
 }
 
+header li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+}
+
+header a:hover{
+    background-color: var(--cor4);
+    padding: 4px;
+    margin: 4px;
+}
 
 main{
     margin: auto;
@@ -61,12 +90,37 @@ main{
 
 main h1{
     font-family: var(--fonte-android);
+    color: var(--cor4);
 }
 
 main h2{
     font-family: var(--fonte-android);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, rgba(149, 226, 182, 0.452), white);
+    padding-left: 10px;
 }
 
+main p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 60px;
+}
+
+main strong{
+    color: var(--cor4);
+}
+
+main a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+main a:hover{
+    text-decoration: none;
+}
 
 main img{
     width: 100%;
@@ -78,7 +132,64 @@ main img{
     display: block;
 }
 
+main .video{
+    background-color: var(--cor5);
+
+}
+
+main .ultimo-bloco{
+    background-color: rgb(180, 234, 203);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.135);
+}
+
+.ultimo-bloco > ul{
+    padding-left: 20px;
+}
+
+main .li1{
+    margin-top: 
+}
+
+main .li2 {
+    margin-left: 500px;
+    
+}
+
+.ultimo-bloco p{
+    padding: 5px;
+    margin-bottom: 3px; 
+}
+
+main .aprender-mais{
+    background-color: rgb(17, 167, 89);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
 footer{
     background-color: var(--cor5);
-    margin-top: 2rem;
+    margin-top: 3rem;
+    padding: 8px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.327);
+    text-align: center;
+}
+
+span{
+    color: var(--cor1);
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.327);
+    margin-left: 5px;
+}
+
+footer a:hover{
+    color: var(--cor1);
 }
