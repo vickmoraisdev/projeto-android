@@ -49,7 +49,7 @@ Tentei manter o código o mais organizado possível, pensando tanto na legibilid
 
 ## 🔗 Veja meu site no ar
 
-![Site](https://vickmoraisdev.github.io/projeto-android/)
+[Site](https://vickmoraisdev.github.io/projeto-android/)
 
 ## 📌 Status do projeto
 
