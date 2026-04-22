@@ -4,6 +4,12 @@ Este site foi desenvolvido como parte de um desafio proposto pelo professor Gust
 
 ---
 
+## 🔗 Veja meu site no ar
+
+[clique aqui](https://vickmoraisdev.github.io/projeto-android/)
+
+---
+
 ## 🚀 Sobre o projeto
 
 Durante a criação deste site, tive a oportunidade de desenvolver novas habilidades e explorar melhor o uso do CSS, que antes era uma das minhas dificuldades.
@@ -46,10 +52,6 @@ Tentei manter o código o mais organizado possível, pensando tanto na legibilid
 - CSS3
 
 ---
-
-## 🔗 Veja meu site no ar
-
-[Site](https://vickmoraisdev.github.io/projeto-android/)
 
 ## 📌 Status do projeto
 
